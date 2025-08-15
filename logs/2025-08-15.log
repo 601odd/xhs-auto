@@ -1,0 +1,2 @@
+[2025-08-15T16:18:49.688Z] [INFO] [test] 这是一条测试日志
+[2025-08-15T16:18:49.689Z] [WARN] [contentGenerator] 未配置OpenAI API密钥，AI内容生成功能将无法使用
