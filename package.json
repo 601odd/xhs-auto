@@ -10,7 +10,8 @@
     "login": "node src/login.js",
     "post": "node src/post.js",
     "schedule": "node src/scheduler.js",
-    "agent": "node src/agent/xhsAgent.js"
+    "agent": "node src/agent/xhsAgent.js",
+    "agent:optimize": "node src/agent/xhsOptimizeAgent.js"
   },
   "keywords": [
     "xiaohongshu",
@@ -22,7 +23,7 @@
   "author": "XHS Auto Poster",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.17.3",
+    "@modelcontextprotocol/sdk": "^1.11.1",
     "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
     "fs-extra": "^11.1.1",
